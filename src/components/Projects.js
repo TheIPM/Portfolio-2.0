@@ -10,21 +10,24 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Metro Madness",
-      description: "Chatroom, using adelaide metro API to track every metro service.",
-      imgUrl: projImg1,
-    },
-    {
-      title: "5 minute Trivia",
-      description: "A fun trivia game to pass the time!",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Horiseon",
-      description: "Refactoring of a website.",
-      imgUrl: projImg3,
-    },
-  ];
+        title: "Metro Madness",
+        description: "Chatroom, using adelaide metro API to track every metro service.",
+        imgUrl: projImg1,
+        link: "https://fathomless-cove-45188.herokuapp.com/login",
+      },
+      {
+        title: "5 minute Trivia",
+        description: "A fun trivia game to pass the time!",
+        imgUrl: projImg2,
+        link: "https://theipm.github.io/Trivia-Games/",
+      },
+      {
+        title: "Horiseon",
+        description: "Refactoring of a website.",
+        imgUrl: projImg3,
+        link: "https://theipm.github.io/Horiseon-Webpage-Refactoring/",
+      },
+    ];
 
   return (
     <section className="project" id="project">

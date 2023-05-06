@@ -59,7 +59,6 @@ export const Banner = () => {
                 <span className="tagline">Portfolio</span>
                 <h1>{`Hi my name is Islam, I think of myself as somewhat of a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Something. Islam Muhammad, 2023</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
