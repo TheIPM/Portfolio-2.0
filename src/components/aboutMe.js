@@ -9,8 +9,8 @@ const AboutMe = () => {
       <Container>
         <TrackVisibility>
           {({ isVisible }) => (
-            <Row>
-              <Col md={6} className={isVisible ? 'animate__animated animate__fadeInRight' : ''}>
+            <Row className="justify-content-center align-items-center min-vh-100">
+              <Col md={6} className={isVisible ? 'animate__animated animate__fadeInRight text-center' : 'text-center'}>
                 <h2>About Me</h2>
                 <p>
                   Hi, I'm Islam.

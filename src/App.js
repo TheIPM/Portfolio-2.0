@@ -5,6 +5,7 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Projects } from './components/Projects';
 import { AboutMe } from './components/aboutMe';
+import { Resume } from './components/Resume';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Banner />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/aboutMe" element={<AboutMe />} />
+          <Route path="/Resume" element={<Resume />} />
           {/* Add other ones */}
         </Routes>
       </div>
