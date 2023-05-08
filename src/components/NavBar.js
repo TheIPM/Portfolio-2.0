@@ -48,13 +48,19 @@ export const NavBar = () => {
             <Nav.Link as={Link} to="/resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
-              </div>
+            <div className="social-icon">
+              <a href="https://github.com/TheIPM" target="_blank" rel="noopener noreferrer">
+              <img src={navIcon1} alt="" />
+              </a>
+              <a href="https://www.linkedin.com/in/islam-muhammad-a26975275/" target="_blank" rel="noopener noreferrer">
+              <img src={navIcon2} alt="" />
+              </a>
+              <a href="https://www.instagram.com/real.ipm/" target="_blank" rel="noopener noreferrer">
+              <img src={navIcon3} alt="" />
+              </a>
+            </div>
               <HashLink to='/contact'>
-                <button className="vvd"><span>Contact Me</span></button>
+                <button className="someting"><span>Contact Me</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
