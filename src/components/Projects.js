@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,19 +16,42 @@ export const Projects = () => {
         title: "Metro Madness",
         description: "Chatroom, using adelaide metro API to track every metro service.",
         imgUrl: projImg1,
-        link: "https://fathomless-cove-45188.herokuapp.com/login",
+        link: "https://fathomless-cove-45188.herokuapp.com",
+        repoLink: "https://github.com/TheIPM/MetroMadness",
       },
       {
         title: "5 minute Trivia",
         description: "A fun trivia game to pass the time!",
         imgUrl: projImg2,
         link: "https://theipm.github.io/Trivia-Games/",
+        repoLink: "https://github.com/TheIPM/Trivia-Games",
       },
       {
         title: "Horiseon",
         description: "Refactoring of a website.",
         imgUrl: projImg3,
         link: "https://theipm.github.io/Horiseon-Webpage-Refactoring/",
+        repoLink: "https://github.com/TheIPM/Horiseon-Webpage-Refactoring",
+      },
+      {
+        title: "Weathercat",
+        description: "A dashboard that gets weather forecasts from around the world, and has fun cat CSS animations.",
+        imgUrl: projImg4,
+        link: "https://theipm.github.io/WeatherCat-Dashboard/",
+      },
+      {
+        title: "Just another text editor",
+        description: "Using PWAs to have offline capabilities for a text editor.",
+        imgUrl: projImg5,
+        link: "https://immense-escarpment-06002.herokuapp.com",
+        repoLink: "https://github.com/TheIPM/PWA-fying-the-text-editor"
+      },
+      {
+        title: "The Note-iest taker",
+        description: "A simple note taker",
+        imgUrl: projImg6,
+        link: "https://stormy-reef-05402.herokuapp.com",
+        repoLink: "https://github.com/TheIPM/The-Note-iest-Taker"
       },
     ];
 

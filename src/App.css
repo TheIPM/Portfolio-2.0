@@ -498,3 +498,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
   justify-content: center;
 }
+
+.repo-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.repo-link::before {
+  content: "To the code, click here";
+}
+
+.proj-imgbx:hover .repo-link {
+  opacity: 1;
+}
