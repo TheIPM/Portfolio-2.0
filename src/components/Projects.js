@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/projpic.png"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -47,11 +48,11 @@ export const Projects = () => {
         repoLink: "https://github.com/TheIPM/PWA-fying-the-text-editor"
       },
       {
-        title: "The Note-iest taker",
-        description: "A simple note taker",
-        imgUrl: projImg6,
-        link: "https://stormy-reef-05402.herokuapp.com",
-        repoLink: "https://github.com/TheIPM/The-Note-iest-Taker"
+        title: "Money Buddy",
+        description: "A buddy for your Money",
+        imgUrl: projImg7,
+        link: "https://shielded-reaches-02791.herokuapp.com",
+        repoLink: "https://github.com/TheIPM/Money-Buddy"
       },
     ];
 
