@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.cbe1fe3b.css",
-    "main.js": "/react-portfolio/static/js/main.c4f6730b.js",
+    "main.js": "/react-portfolio/static/js/main.f5b21fbe.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/project-img3.png": "/react-portfolio/static/media/project-img3.40734a910ef4987a2965.png",
     "static/media/project-img1.png": "/react-portfolio/static/media/project-img1.43bfbb7e7fe39a3a8643.png",
@@ -10,6 +10,7 @@
     "static/media/CentraNo2-Book.ttf": "/react-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/project-img2.png": "/react-portfolio/static/media/project-img2.3499c5ba1f4b43c0fcac.png",
     "static/media/Islam M Resume 2023.pdf": "/react-portfolio/static/media/Islam M Resume 2023.3b436fa81fc98c4e10a8.pdf",
+    "static/media/projpic.png": "/react-portfolio/static/media/projpic.13c5a0b311549a96e008.png",
     "static/media/project-img6.png": "/react-portfolio/static/media/project-img6.de22483a28704f9d8969.png",
     "static/media/project-img4.png": "/react-portfolio/static/media/project-img4.cc1ff1cde56608b909af.png",
     "static/media/project-img5.png": "/react-portfolio/static/media/project-img5.69f6c28b37beaa56580c.png",
@@ -19,11 +20,11 @@
     "static/media/nav-icon2.svg": "/react-portfolio/static/media/nav-icon2.50211e40ee3d67e899cf1c7945cc6557.svg",
     "index.html": "/react-portfolio/index.html",
     "main.cbe1fe3b.css.map": "/react-portfolio/static/css/main.cbe1fe3b.css.map",
-    "main.c4f6730b.js.map": "/react-portfolio/static/js/main.c4f6730b.js.map",
+    "main.f5b21fbe.js.map": "/react-portfolio/static/js/main.f5b21fbe.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbe1fe3b.css",
-    "static/js/main.c4f6730b.js"
+    "static/js/main.f5b21fbe.js"
   ]
 }
