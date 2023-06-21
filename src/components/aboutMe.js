@@ -17,7 +17,7 @@ const AboutMe = () => {
                     Hi, I'm Islam.
                   </p>
                   <p>
-                    something something lorem something about me something something lorem something about me something something lorem something about mesomething something lorem something about mesomething something lorem something about mesomething something lorem something about mesomething something lorem something about me.
+                  Im an aspiring Web Developer, ive created a number of web applications and am looking to improve my skills. I also have a goal of trying to improve myself and learn as much as I can and develop an array of skills. When it comes to work I can do anything since I enjoy doing anything
                   </p>
                 </Col>
               </Row>
